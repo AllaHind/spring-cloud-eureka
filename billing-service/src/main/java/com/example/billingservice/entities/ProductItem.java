@@ -1,6 +1,7 @@
 package com.example.billingservice.entities;
 
 import com.example.billingservice.models.Product;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,11 +16,17 @@ public class ProductItem  {
     private double quantity;
     private double price;
     private long productID;
-    @ManyToOne
+    private  String nom;
+ @JsonProperty(access =JsonProperty.Access.WRITE_ONLY)
+
+ @ManyToOne
     private  Bill bill;
     @Transient
     private Product product;
 
-
+    public double getAmount()
+    {
+        return price * quantity;
+    }
 
 }

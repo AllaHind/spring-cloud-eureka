@@ -18,7 +18,7 @@ public class CustomerServiceApplication {
 @Bean
 CommandLineRunner start(CustomerRepository customerRepository, RepositoryRestConfiguration restConfiguration){
 return args -> {
-//    restConfiguration.exposeIdsFor(Customer.class);
+   restConfiguration.exposeIdsFor(Customer.class);
     customerRepository.save(new Customer(null,"Hind","alla.hind@gmail.com"));
     customerRepository.save(new Customer(null,"Ibtissam","berrima.ibtissam@gmail.com"));
     customerRepository.save(new Customer(null,"Kenza","addi.kenza@gmail.com"));

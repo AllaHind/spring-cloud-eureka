@@ -20,6 +20,14 @@ public class Bill {
     private long  customerID;
     @Transient
     private Customer customer;
-
+    public double getTotal()
+    {
+        double sum = 0;
+        for (ProductItem p : productItem)
+        {
+            sum += p.getPrice();
+        }
+        return sum;
+    }
 
 }

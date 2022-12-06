@@ -16,7 +16,7 @@ public class GatewayApplication {
         SpringApplication.run(GatewayApplication.class, args);
     }
 
-   /*//@Bean
+ /*  @Bean
     RouteLocator routeLocator(RouteLocatorBuilder builder)
     {
         return  builder.routes().
