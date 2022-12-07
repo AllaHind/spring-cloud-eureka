@@ -37,7 +37,7 @@ I.	Mise en œuvre des architecture micro-services avec Spring Cloud
 
 ![image](https://user-images.githubusercontent.com/79708292/206135031-6db2a62c-0e8c-4692-b99c-e5bf24f3d6a3.png)
 
- ###      2.2   Inventory Servuce - get Product by ID
+ ###      2.2   Inventory Service - get Product by ID
 
 ![image](https://user-images.githubusercontent.com/79708292/206135199-13410d1b-00fc-45bc-be8e-04730f3de25a.png)
 
