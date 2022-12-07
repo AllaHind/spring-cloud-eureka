@@ -11,18 +11,18 @@ I.	Mise en œuvre des architecture micro-services avec Spring Cloud
 
 I.	Mise en œuvre des architecture micro-services avec Spring Cloud
 
-   ## * Architecture de l’application :
+  * ##  Architecture de l’application :
 
 ![image](https://user-images.githubusercontent.com/79708292/206131983-57efaab1-f499-4edc-98a4-bd56ab3d89af.png)
 
  
-  ##  * Conception de l’application :
+ * ##   Conception de l’application :
  
 ![image](https://user-images.githubusercontent.com/79708292/206132027-b5568a4f-fdcc-4c4a-b705-93f1883495a1.png)
 
 
 
-   ## * Capture d’écran de l’application :
+ *  ##  Capture d’écran de l’application :
 
 
  ###      1.1 Customer Service - get All Customers
